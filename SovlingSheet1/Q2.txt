@@ -1,0 +1,11 @@
+root@ubuntu:/home/directory0/subdirectory1# date
+Thu 29 Apr 2021 02:48:32 PM EET
+root@ubuntu:/home/directory0/subdirectory1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/directory0/subdirectory1# pwd
+/home/directory0/subdirectory1
+root@ubuntu:/home/directory0/subdirectory1# 
+
+
+
+

@@ -1,0 +1,16 @@
+root@ubuntu:/home/directory0# dc /home/directory0/subdirectory2
+dc: Will not attempt to process directory /home/directory0/subdirectory2
+root@ubuntu:/home/directory0# cd /home/directory0/subdirectory2
+root@ubuntu:/home/directory0/subdirectory2# touch ahmed.txt
+root@ubuntu:/home/directory0/subdirectory2# touch Ahmed.txt
+root@ubuntu:/home/directory0/subdirectory2# ls
+ahmed.txt  Ahmed.txt  file2.1.txt
+root@ubuntu:/home/directory0/subdirectory2# ls | grep a
+ahmed.txt
+root@ubuntu:/home/directory0/subdirectory2# ls | grep A
+Ahmed.txt
+root@ubuntu:/home/directory0/subdirectory2# ls | wc -l
+3
+root@ubuntu:/home/directory0/subdirectory2# 
+
+
